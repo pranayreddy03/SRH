@@ -35,6 +35,10 @@ body
     background: #ff6300;
     color: #fff;
 }
+#main-footer
+{
+    background-color: #ff6300;
+}
 
 @media(max-width: 576px)
 {
