@@ -1,0 +1,45 @@
+body
+{
+    margin-top: 105px;
+}
+
+.navbar
+{
+    box-shadow: 2px 2px 5px #ff6300;
+    opacity: 0.9;
+    background: #fff;
+}
+
+.navbar .nav-item
+{
+    font-size: 1.4rem;
+    padding-right: 20px;
+}
+
+#showcase
+{
+    position: relative;
+    background-image:url("../images/homePhoto1.jpeg");
+    min-height: 600px;
+}
+
+.info-header
+{
+    width: 50%;
+    margin: auto;
+    border-bottom: 1px #ddd solid;
+}
+
+#players .card:hover
+{
+    background: #ff6300;
+    color: #fff;
+}
+
+@media(max-width: 576px)
+{
+    nav .container
+    {
+        width: 100%;
+    }
+}
